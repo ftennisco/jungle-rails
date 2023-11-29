@@ -85,3 +85,8 @@ group :development, :test do
   gem 'net-smtp', require: false
   # ...
 end
+
+group :development, :test do
+  gem "cypress-rails"
+  gem 'database_cleaner-active_record'
+end
